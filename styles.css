@@ -1,0 +1,116 @@
+html body{
+	margin:0px;
+	/*background-image:url(images/arkaplan.jpg);*/
+	background-color: #D8D8C8;
+	font-family: 'palatino linotype', palatino, serif;
+	font-style: italic;
+}
+h1{
+	font-size:22px;
+	color:#777777;
+	text-align:center;
+}
+a{
+	color:#5555FF;
+	text-decoration: none;
+}
+#page{
+	width: 950px;	
+	height:1200px;
+	margin: auto;	
+}
+#left_column{
+	width: 300px;
+	height:1500px;
+	background-color:#EEE;
+	float:left;		
+	border:1px solid #999999; 
+}
+#right_column{
+	width: 600px;
+	height:1500px;
+	background-color:white;
+	float:right;	
+/*	margin-left:40px;*/
+	border:1px solid #999999; 
+}
+#foto1{
+	width: 180px;
+	height:250px;
+	margin-top:50px;	
+	margin-left:60px;
+	margin-right:60px;
+	border:1px solid #999999;			
+}
+#foto2{
+	width: 160px;
+	height:230px;
+	border:10px solid #F6F6F6;
+	background-image:url(images/foto.jpg);		
+}
+#iletisim{
+	width: 300px;
+	height:350px;
+	margin-top:10px;	
+	margin:auto;
+}
+.cd-item {
+	padding:10px;
+	font-weight:bold;
+}
+.cd-info {
+	padding:10px;
+}
+
+#iletisim p1{
+	font-size:15px;
+	font-weight: bold;
+	height:55px;
+	margin:auto;
+}
+#iletisim p2{
+	font-size:15px;
+	height:55px;
+	margin:auto;
+}
+#header{
+	width: 100%;
+	height:40px;
+	background-color:silver;
+}
+#header li{
+	display: inline;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+#content{
+	width: 85%;
+	height:1000px;
+	margin:auto;
+	margin-top:20px;
+}
+#yazi{
+	width:100%;
+	margin-bottom:20px;
+}
+#yazi h1{	
+	height:40px;
+	margin:auto;
+	background-color:#D8D8C8;;
+}
+#yazi p{
+	font-size:15px;
+	width: 100%;
+	/*height:200px;*/
+	margin:auto;
+	/*background-color:#FFD5AA;*/
+}
+dt{
+	font-weight: bold;
+}
+
+dd{
+	margin-left: 1.5em;
+}
+
